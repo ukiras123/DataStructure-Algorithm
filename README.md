@@ -43,19 +43,20 @@ One stop for Data Structure and Algorithms along with problems related to it. It
     a.	Binary Tree
     b.	Binary Search Tree
     c.	Heap
-    d.	Graphs:
+    d.	Trie
+    e.	Graphs:
             i. A graph G is an ordered pair of a set V of vertices and a set E of edges. G = (V,E])
             ii. Number of Edges: 
                     1. Directed: |V| = n then 0 <= |E| <= n (n-1)
                     2. Undirected: O <= |E| <= n(n-1)/2
-    e.	Shortest Paths
-    f.	BFS [Using Queue]
-    g.	DFS [Using Stack]
+    f.	Shortest Paths
+    g.	BFS [Using Queue]
+    h.	DFS [Using Stack]
             i. Pre-Order [Root, Left, Right]
             ii. In-Order [Left, Root, Right] -> It gives a sorted list
             iii. Post-Order [Left, Right, Root]
-    h.	Dijkstra
-    i.	Different Tree/Graph Problems
+    i.	Dijkstra
+    j.	Different Tree/Graph Problems
     
 ### [7.	Java Collection: ](https://www.javatpoint.com/collections-in-java)
 
