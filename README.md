@@ -26,7 +26,7 @@ One stop for Data Structure and Algorithms along with problems related to it. It
     
 ### [4.	Queues: ](https://www.geeksforgeeks.org/queue-data-structure/)
 
-    a.	Design and Implement Stack
+    a.	Design and Implement Queue
     b.	Different Queues Problems
     
 ### [5.	Hashing: ](https://www.geeksforgeeks.org/hashing-data-structure/)
@@ -54,7 +54,8 @@ One stop for Data Structure and Algorithms along with problems related to it. It
             i. Pre-Order [Root, Left, Right]
             ii. In-Order [Left, Root, Right] -> It gives a sorted list
             iii. Post-Order [Left, Right, Root]
-    h.	Different Tree/Graph Problems
+    h.	Dijkstra
+    i.	Different Tree/Graph Problems
     
 ### [7.	Java Collection: ](https://www.javatpoint.com/collections-in-java)
 
