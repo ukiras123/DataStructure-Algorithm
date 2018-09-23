@@ -53,7 +53,7 @@ One stop for Data Structure and Algorithms along with problems related to it. It
     g.	BFS [Using Queue]
     h.	DFS [Using Stack]
             i. Pre-Order [Root, Left, Right]
-            ii. In-Order [Left, Root, Right] -> It gives a sorted list
+            ii. In-Order [Left, Root, Right] -> It gives a sorted list for BST
             iii. Post-Order [Left, Right, Root]
     i.	Dijkstra
     j.	Different Tree/Graph Problems
