@@ -9,23 +9,28 @@ package com.algorithm.sorting;
 // Java implementation of Counting Sort
 class CountingSort {
     void sort(char arr[]) {
-        int n = arr.length;
-        char[] output = new char[n];
 
+        // Counting array
         int count[] = new int[256];
         for (int i = 0; i < 256; i++) {
             count[i] = 0;
         }
 
-
         // store count of each character
-        for (int i = 0; i < n; ++i)
-            ++count[arr[i]];
+        for (int i = 0; i < arr.length; ++i) {
+            count[arr[i]] = count[arr[i]] + 1;
+        }
 
-        // Change count[i] so that count[i] now contains actual
-        // position of this character in output array
-        for (int i=1; i<=255; ++i)
-            count[i] += count[i-1];
+        int k =0;
+        for (int i =0; i < 256; i++){
+            if (count[i] >=1){
+                for (int j = 0; j < count[i]; j++){
+                    arr[k] = (char) i;
+                    k++;
+                }
+            }
+        }
+
 
     }
 
