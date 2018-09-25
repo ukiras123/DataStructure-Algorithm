@@ -112,6 +112,26 @@ One stop for Data Structure and Algorithms along with problems related to it. It
 **Different Algorithms with simple Big(O) analysis**
 
 
+## [ASCII Char : ](https://www.ascii-code.com/) In Decimal
+
+**[0 - 255] -> [All Characters including extended ASCII]**
+
+**[0 - 31] -> [control char]**
+
+**[32 - 127] -> [printable char]**
+
+**[48 - 57] -> [0 - 9]**
+
+**[65 - 90] -> [A - Z]**
+
+**[97 - 122] -> [A - Z]**
+
+**[128 - 255] -> [extended char]**
+
+
+
+
+
 ### Learn More
 
 **[Practice Problems](https://leetcode.com/)**
