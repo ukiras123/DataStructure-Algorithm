@@ -7,6 +7,9 @@ import java.util.Stack;
  * (a) Preorder (Left, Root, Right) : 4 2 5 1 3
  * (b) Inorder (Root, Left, Right) : 1 2 4 5 3  -> It gives a sorted list for BST
  * (c) Postorder (Left, Right, Root) : 4 5 2 3 1
+ *
+ * Worst: O(|V| + |E|)
+ * Average: O(n)
  */
 public class DFS {
 
