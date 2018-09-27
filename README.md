@@ -129,6 +129,46 @@ One stop for Data Structure and Algorithms along with problems related to it. It
 **[128 - 255] -> [extended char]**
 
 
+## Data Measurement
+
+**Data Measurement	Size**
+
+Bit -> Binary Digit (1 or 0)
+
+Byte -> 8 bits
+
+Kilobyte (KB) -> 1,024 Bytes
+
+Megabyte (MB) -> 1,024 Kilobytes
+
+Gigabyte (GB) -> 1,024 Megabytes
+
+Terabyte (TB) -> 1,024 Gigabytes
+
+Petabyte (PB) -> 1,024 Terabytes
+
+Exabyte (EB) -> 1,024 Petabytes
+
+**Java's primitive data types**
+
+byte -> 1 byte | -128 to 127
+
+short -> 2 bytes | -32,768 to 32,767
+
+int -> 4 bytes | -2,147,483,648 to 2,147,483, 647
+
+long -> 8 bytes | -9,223,372,036,854,775,808 to 
+9,223,372,036,854,775,807
+
+float -> 4 bytes | approximately ±3.40282347E+38F 
+(6-7 significant decimal digits) 
+Java implements IEEE 754 standard
+
+double -> 8 bytes | approximately ±1.79769313486231570E+308
+(15 significant decimal digits)
+
+char -> 2 byte | 0 to 65,536 (unsigned)
+
 
 
 
