@@ -31,48 +31,46 @@ import java.util.Scanner;
 
 public class GraphAdjacencyMatrix {
 
+
+    /*
+      int[][] graph = {
+                        {0, 1, 0, 0},
+                        {1, 0, 1, 1},
+                        {0, 1, 0, 1},
+                        {0, 1, 1, 0},
+                      };
+     */
     private final int vertices;
     private int[][] adjacency_matrix;
 
-    public GraphAdjacencyMatrix(int v)
-    {
+    public GraphAdjacencyMatrix(int v) {
         vertices = v;
         adjacency_matrix = new int[vertices + 1][vertices + 1];
     }
 
-    public void makeEdge(int to, int from, int edge)
-    {
-        try
-        {
+    public void makeEdge(int to, int from, int edge) {
+        try {
             adjacency_matrix[to][from] = edge;
-        }
-        catch (ArrayIndexOutOfBoundsException index)
-        {
+        } catch (ArrayIndexOutOfBoundsException index) {
             System.out.println("The vertices does not exists");
         }
     }
 
-    public int getEdge(int to, int from)
-    {
-        try
-        {
+    public int getEdge(int to, int from) {
+        try {
             return adjacency_matrix[to][from];
-        }
-        catch (ArrayIndexOutOfBoundsException index)
-        {
+        } catch (ArrayIndexOutOfBoundsException index) {
             System.out.println("The vertices does not exists");
         }
         return -1;
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int v, e, count = 1, to = 0, from = 0;
         Scanner sc = new Scanner(System.in);
 
         GraphAdjacencyMatrix graph;
-        try
-        {
+        try {
             System.out.println("Enter the number of vertices: ");
             v = sc.nextInt();
             System.out.println("Enter the number of edges: ");
@@ -81,8 +79,7 @@ public class GraphAdjacencyMatrix {
             graph = new GraphAdjacencyMatrix(v);
 
             System.out.println("Enter the edges: <to> <from>");
-            while (count <= e)
-            {
+            while (count <= e) {
                 to = sc.nextInt();
                 from = sc.nextInt();
 
@@ -96,17 +93,14 @@ public class GraphAdjacencyMatrix {
                 System.out.print(i + " ");
             System.out.println();
 
-            for (int i = 1; i <= v; i++)
-            {
+            for (int i = 1; i <= v; i++) {
                 System.out.print(i + " ");
                 for (int j = 1; j <= v; j++)
                     System.out.print(graph.getEdge(i, j) + " ");
                 System.out.println();
             }
 
-        }
-        catch (Exception E)
-        {
+        } catch (Exception E) {
             System.out.println("Somthing went wrong");
         }
 

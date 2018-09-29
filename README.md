@@ -124,7 +124,7 @@ One stop for Data Structure and Algorithms along with problems related to it. It
 
 **[65 - 90] -> [A - Z]**
 
-**[97 - 122] -> [A - Z]**
+**[97 - 122] -> [a - z]**
 
 **[128 - 255] -> [extended char]**
 
