@@ -174,6 +174,8 @@ char -> 2 byte | 0 to 65,536 (unsigned)
 
 ### Learn More
 
+**[Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)**
+
 **[Practice Problems](https://leetcode.com/)**
 
 **[Prepare for Interview](https://www.interviewcake.com/)**
