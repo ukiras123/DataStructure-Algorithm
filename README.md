@@ -176,6 +176,8 @@ char -> 2 byte | 0 to 65,536 (unsigned)
 
 **[Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)**
 
+**[Unix Command Cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)**
+ 
 **[Practice Problems](https://leetcode.com/)**
 
 **[Prepare for Interview](https://www.interviewcake.com/)**
