@@ -114,7 +114,9 @@ One stop for Data Structure and Algorithms along with problems related to it. It
 
 ## [ASCII Char : ](https://www.ascii-code.com/) In Decimal
 
-**[0 - 255] -> [All Characters including extended ASCII]**
+**[0 - 127] -> [All Regular Characters]**
+
+**[128 - 255] -> [Extended ASCII]**
 
 **[0 - 31] -> [control char]**
 
